@@ -1,3 +1,4 @@
+
 # .bashrc
 
 # Source global definitions
@@ -23,7 +24,8 @@ function __setprompt {
   PS4='$BLUE+$NO_COLOUR '
 }
 
-eval `dircolors ~/.dir_colors`
+eval "`dircolors -b ~/.dir_colors`"
+export LS_OPTIONS='--color=auto'
+alias ls='ls $LS_OPTIONS'
 
 __setprompt
-
