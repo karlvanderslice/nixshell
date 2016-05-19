@@ -23,3 +23,5 @@ function __setprompt {
   PS4='$BLUE+$NO_COLOUR '
 }
 __setprompt
+
+eval `dircolors ~/.dir_colors
