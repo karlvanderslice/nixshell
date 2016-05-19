@@ -23,7 +23,7 @@ function __setprompt {
   PS4='$BLUE+$NO_COLOUR '
 }
 
-eval 'dircolors ~/.dir_colors'
+eval `dircolors ~/.dir_colors`
 
 __setprompt
 
