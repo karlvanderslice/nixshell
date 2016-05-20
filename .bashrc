@@ -28,6 +28,5 @@ eval "`dircolors -b ~/.dir_colors`"
 export LS_OPTIONS='--color=auto'
 alias ls='ls $LS_OPTIONS'
 alias cls='clear'
-alias ls='ls -lh'
 
 __setprompt
